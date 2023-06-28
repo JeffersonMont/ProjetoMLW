@@ -82,13 +82,17 @@
 }
 
 #inforcamaoesdosbotoes {
+   display:inline-block;
+   position: absolute;
    margin-top: 2%;
-   margin-left: 11%;
    margin-bottom: 10%;
    margin-right: 8%;
+   margin-left: 12%;
+   width: 75%;
    height: 450px;
    border-radius: 20px;
    border-style: solid;
    border-color: rgba(45, 44, 57, 0.5);
    border-width: 8px;
 }
+
