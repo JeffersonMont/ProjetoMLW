@@ -96,15 +96,7 @@
    border-width: 8px;
 }
 
-.botoes {
-
-    margin:auto;
-    text-align: center;
-    overflow: hidden;
-
-}
-
-.btn {
+#btnhome, #btnoutrasinformacoes, #btnnde, #btncolegiado, #btncpa, #btncorpodocente, #btngestaodocurso, #btnhorariodasturmas, #btnregulamentodasturmas {
 
     max-width: 150px;
     font-size: 1em;
@@ -125,35 +117,38 @@
     margin-bottom: 10px;
     margin-right: 0;
 
+
 }
 
-.btn:hover {
+#btnhome, #btnoutrasinformacoes, #btnnde, #btncolegiado, #btncpa, #btncorpodocente, #btngestaodocurso, #btnhorariodasturmas, #btnregulamentodasturmas:hover {
 
     background-position: 100% 0;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    background-color: rgb(0, 66, 12);
+
 
 }
 
-.btn:focus { outline: none; }
+#btnhome:focus { outline: none; }
 
-.btn.home { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btnhome { background-color: rgb(20,129,41); }
 
-.btn.outrasinformações  { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btnoutrasinformacoes  { background-color: rgb(20,129,41); }
 
-.btn.nde { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btnnde { background-color: rgb(20,129,41); }
 
-.btn.colegiado { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btncolegiado { background-color: rgb(20,129,41); }
 
-.btn.cpa { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btncpa { background-color: rgb(20,129,41); }
 
-.btn.corpodocente { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btncorpodocente { background-color: rgb(20,129,41); }
 
-.btn.gestaodocurso { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btngestaodocurso { background-color: rgb(20,129,41); }
 
-.btn.horariodasturmas { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btnhorariodasturmas { background-color: rgb(20,129,41); }
 
-.btn.regulamentodasturmas { background-image: linear-gradient(to right, #018249, #3cba92, #3be493, #018249); }
+#btnregulamentodasturmas { background-color: rgb(20,129,41); }
 
